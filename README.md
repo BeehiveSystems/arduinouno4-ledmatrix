@@ -27,30 +27,26 @@ Control the built-in 12x8 LED matrix on the Arduino UNO R4 WiFi via a web interf
 
 ### **1. Clone the Repository**
 
-bash
-
-Copy
-
+```
 git clone https://github.com/your-username/arduino-uno-r4-wifi-led-matrix.git
 cd arduino-uno-r4-wifi-led-matrix
+```
 
 ### **2. Configure Wi-Fi**
 
 1.  Create a `config.h` file:
     
-    cpp
-    
-    Copy
-    
-    // config.h
-    const char* ssid = "Your_SSID";
-    const char* password = "Your_Password";
+```
+// config.h
+const char* ssid = "Your_SSID";
+const char* password = "Your_Password";
+```
     
 2.  Add `config.h` to `.gitignore`:
-    
-    Copy
-    
-    config.h
+
+```
+config.h
+```
     
 
 ### **3. Upload the Code**
@@ -92,12 +88,12 @@ cd arduino-uno-r4-wifi-led-matrix
 
 ## **Project Structure**
 
-Copy
-
+```
 arduino-uno-r4-wifi-led-matrix/
 ├── led_matrix_control.ino
 ├── config.h
 ├── README.md
+```
 
 ----------
 
